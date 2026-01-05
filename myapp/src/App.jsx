@@ -1,16 +1,16 @@
-<<<<<<<<< Temporary merge branch 1
-import Cards from "./components/Cards"
 
+import Cards from "./components/Cards"
+import Navbar from "./Navbar"
 
 function App() {
 
   return (
     <>
-<<<<<<<<< Temporary merge branch 1
-    <Cards/> 
-=========
+
     <Navbar/>
->>>>>>>>> Temporary merge branch 2
+    <Cards/> 
+    
+
     </>
   )
 }
