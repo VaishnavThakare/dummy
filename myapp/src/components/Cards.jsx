@@ -24,7 +24,7 @@ const Cards = () => {
 
   return (
     <>
-      <h3>This is the product cards section</h3>
+      <h3>This is the product rddfggf ffyg cards section</h3>
 
       <Grid container spacing={3}>
         {product.map((ele) => (
