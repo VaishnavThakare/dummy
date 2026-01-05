@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Navigate, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import {
   Grid,
@@ -13,7 +14,7 @@ import {
 const Cards = () => {
 
   const [product, setProduct] = useState([])
-
+  const navigate=useNavigate();
   // Fetch data from the API
   useEffect(() => {
     axios.get('https://fakestoreapi.com/products')
@@ -56,7 +57,7 @@ const Cards = () => {
               </CardContent>
 
               <CardActions>
-                <Button size="small">View</Button>
+                <Button size="small" onClick={()=>navigate(`/products/${ele.id}`)}>View</Button>
                 <Button size="small">Add to Cart</Button>
               </CardActions>
 
