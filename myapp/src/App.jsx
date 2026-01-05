@@ -1,13 +1,16 @@
-import Navbar from "./Navbar"
-import Cards from "./components/Cards"
 
+import Cards from "./components/Cards"
+import Navbar from "./Navbar"
 
 function App() {
 
   return (
     <>
+
     <Navbar/>
     <Cards/> 
+    
+
     </>
   )
 }
