@@ -16,7 +16,7 @@ fontSize:"20px"
 
   return (
     <div >
-      <div className='nav' style={navStyle}><a href="#">home</a><a href="#">about</a><a href="#">our team</a><a href="#">expertise</a><a href="#">Employees</a></div>
+      <div className='nav' style={navStyle}><a href="#">home</a><a href="#">about</a><a href="#">our team</a><a href="#">Expertise</a><a href="#">Employees</a></div>
     </div>
   )
 }
