@@ -26,10 +26,10 @@ const Cards = () => {
     <>
       <h3>This is the product cards section</h3>
 
-      <Grid container spacing={3} sx={{display:"flex" , alignItems:"center", justifyContent:"center"}}>
+      <Grid container spacing={3}>
         {product.map((ele) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={ele.id} >
-            <Card sx={{ maxWidth: 305 }}>
+          <Grid item xs={12} sm={6} md={4} lg={3} key={ele.id}>
+            <Card sx={{ maxWidth: 345 }}>
               
               <CardMedia
                 component="img"
@@ -57,7 +57,7 @@ const Cards = () => {
               </CardContent>
 
               <CardActions>
-                <Button size="small" onClick={()=>navigate(`/products/${ele.id}`)}>View</Button>
+                <Button size="small" onClick={()=>navigate(`products/${ele.id}`)}>View</Button>
                 <Button size="small">Add to Cart</Button>
               </CardActions>
 
