@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import View from "./components/View"
 import {Routes,Route} from "react-router-dom"
 import Main from "./Main/Main"
+import "./App.css"
 function App() {
 
   return (
